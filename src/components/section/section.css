@@ -1,0 +1,194 @@
+.section-main-block{
+    background-color: #F0F0F0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-main-container{
+    height: 95%;
+    width: 90%;
+}
+
+.section-block-header
+{
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgb(167, 162, 162);
+}
+.section-main-block-header
+{
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+
+.main-section-block-div
+{
+    background-color: #ffffff;
+    min-height: 80vh;
+    min-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+}
+.create-new-section-block
+{
+    flex: 1;
+    height: 95%;
+    text-align: center;
+}
+
+.all-sections-block
+{ 
+    text-align: center;
+    flex: 1;
+    height: 95%;
+}
+.manage-section-block{
+    text-align: center;
+    flex: 1;
+    height: 95%;
+}
+.all-friends-section
+{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 55vh;
+    border : 1px solid #dddada;
+    margin-left:5px;
+    border-radius:15px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.section-chat-user-block
+{
+    width:95%;
+}
+.main-section-block-div h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.section-people-add
+{
+    margin-top: 30px;
+}
+.section-title-input
+{
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.create-section-btn
+{
+    color: #E8F2FF;
+    background-color: #2e4b7b;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #2B3C58;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; 
+    margin-bottom: 20px;
+}
+.create-section-btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.all-sections-list
+{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.min-section-block
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #2B3C58;
+    font-size: 20px;
+    color: #616E81;
+    padding: 10px;
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    max-width: 20vw;
+    min-width: 20vw;
+}
+.min-section-block:hover{
+    background-color: #3B4F6A;
+}
+.section-sm-block{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-sm-option-users
+{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+    text-align: start;
+}
+.min-section-block:hover .section-sm-option-users{
+    max-height: 500px;
+  
+}
+.section-sm-option{
+    color:#616E81;
+    transition: color 0.3s ease; 
+    
+   
+}
+.min-section-block:hover .section-sm-option{
+    color: #F0F0F0;
+    cursor: pointer;
+}
+.section-sm-option-user
+{
+    font-size: 15px;
+}
+.users-to-update-div
+{
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-section-container{
+    margin-left: 10px;
+}
+.user-to-update-option{
+    background-color: #2B3C58;
+}
+.space-top
+{
+    margin-top: 20px;
+}
+
+.update-section-btn
+{
+    color: #E8F2FF;
+    background-color: #2e4b7b;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #2B3C58;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; 
+    margin-bottom: 20px;
+}
+.update-section-btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+}

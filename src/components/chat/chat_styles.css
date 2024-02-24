@@ -1,0 +1,106 @@
+.main-chat-block
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width:53%;
+}
+
+.chat-type-section.user-title-chat
+{
+    border-bottom: 0.5px solid #e8e0e0;;
+}
+.chat-type-section.user-title-chat .status-indicator
+{
+    border-radius: 50%;
+    width:5px;
+    height:5px;
+    background-color: red;
+    margin-right: 5px;
+}
+.user-satus-indicator
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.chat-form-component
+{
+    border: 0.5px solid #e8e0e0;
+    margin-top: auto;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send-message-input{
+    border-radius: 10px;
+    border: 3px solid #EAEAEA; 
+    outline: none; 
+}
+
+
+.chat-form-component .sendBtn
+{
+    background-color: #43C8BC ;
+    border-radius: 10px;
+}
+
+
+  .message-section{
+    overflow-y: auto ;
+    max-height: 75vh;
+    height:100%;
+  }
+  
+
+  .custom-btn {
+    background-color: transparent;
+    position: relative;
+    border: none;
+  }
+  .btn-container-header{
+    margin-left: auto; 
+    display: grid;
+  }
+  
+  .custom-icon {
+    transform: scale(1.2);
+    transition: .2s linear;
+  }
+  
+  .custom-btn:hover > .custom-icon {
+    transform: scale(1.5);
+  }
+  
+  .custom-btn:hover > .custom-icon path {
+    fill: rgb(168, 7, 7);
+  }
+  
+  .custom-btn:hover::after {
+    visibility: visible;
+    opacity: 1;
+    top: -160%;
+  }
+  
+.message-block-small-right{
+  text-align: right;
+}
+
+.message-side-two-min{
+  background-color: #43C8BC;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  margin:5px;
+  border-radius: 10px;
+  
+}
+.message-side-one-min{
+  background-color: #4e43c8;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  margin:5px;
+  border-radius: 10px;
+  
+}

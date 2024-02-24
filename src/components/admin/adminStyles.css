@@ -1,0 +1,143 @@
+.main-admin-block
+{
+    display: flex;
+    position: relative;
+}
+.admin-div
+{
+    width: 80vw;
+    text-align: center;
+}
+.admin-header
+{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.admin-users-manage
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    overflow-y: auto;
+    margin-top: 10px;
+    position: absolute;
+}
+
+
+
+.admin-users-manage > * {
+    flex: 0 0 calc(20% - 45px); 
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+.user-card-profile-container
+{
+    background-color: #231E39;
+    height: 300px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+}
+.user-card-btn-div{
+    margin-top: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.avatar-card-img
+{
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+}
+.user-card-avatar{
+    margin-top: 5px;
+}
+.user-card-info{
+    color: #B3B8AB;
+    display: flex;
+    flex-direction: column;
+}
+.user-card-name
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+.user-card-detail
+{
+    font-size: 14px;
+}
+
+
+.user-card-btn1 {
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: 3.5em;
+    height: 1.8rem;
+    transition: .3s;
+    margin-right: 5px;
+  }
+  
+  .user-card-btn1:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .user-card-btn2
+  {
+    background-color: #f3f7fe;
+    color: #FEBB0B;
+    border: none;
+    border-radius: 8px;
+    width: 3.4em;
+    height: 1.8rem;
+    transition: .3s;
+    margin-right: 5px;
+  }
+
+  .user-card-btn2:hover {
+    background-color: #FEBB0B;
+    box-shadow: 0 0 0 5px #f8e792e0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .user-card-btn3
+  {
+    background-color: #f3f7fe;
+    color: #e60808;
+    border: none;
+    border-radius: 8px;
+    width: 3.4em;
+    height: 1.8rem;
+    transition: .3s;
+    margin-right: 5px;
+  }
+
+  
+  .user-card-btn3:hover {
+    background-color: #e60808;
+    box-shadow: 0 0 0 5px #c94040e0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .user-role-indicator
+  {
+    margin-right: auto;
+    margin-left: 12px;
+    background-color: #3b82f6;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #efeeee;
+  }

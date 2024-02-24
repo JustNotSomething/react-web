@@ -1,0 +1,146 @@
+.search-main-block{
+    display: flex;
+    background-color: white;
+}
+
+
+.block-search-users{
+    width:80%;
+    text-align: center;
+}
+.block-search-input-controll
+{
+    margin-top: 20px;
+}
+
+.all-users-block{
+    margin-top: 30px;
+    overflow-y: auto;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    max-height: 85vh;
+}
+
+.some-user-block{
+    background-color: #f1f3f7;
+    width: 60%;
+    height: 45px;
+    border-radius: 10px;
+    transition: 0.7s;
+    display: flex;
+    border: 1px solid #e3e5eb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.some-user-block:hover{
+    background-color: #e3e5eb;
+    transition: 0.7s;
+}
+.block-search-input-controll .search{
+    border-radius: 10px;
+    border: 3px solid #EAEAEA;
+}
+      
+.block-search-input-controll .search:focus {
+    border: 3px solid #EAEAEA;
+  }
+
+.all-users-block .icon-block{
+    display: flex;
+}
+.small-icon-block{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.username-search-block
+{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.email-search-block
+{
+    display: flex;
+    align-self: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.bookmarkBtn {
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+   
+  }
+  
+  .IconContainer {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, rgb(255, 136, 255),rgb(172, 70, 255));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .3s;
+  }
+  
+  .icon-w {
+    border-radius: 1px;
+  }
+  
+  .text-p {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    z-index: 1;
+    transition-duration: .3s;
+    font-size: 1.04em;
+  }
+  
+  .bookmarkBtn:hover .IconContainer {
+    width: 90px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .bookmarkBtn:hover .text-p {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: .3s;
+  }
+  
+  .bookmarkBtn:active {
+    transform: scale(0.95);
+    transition-duration: .3s;
+  }
+
+  .null-empty-div{
+    flex: 1;
+  }
+  .main-all-search-users
+  {
+    
+  }

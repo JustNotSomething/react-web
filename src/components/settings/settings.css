@@ -1,0 +1,400 @@
+.settings-body{
+    background-color: #F0F0F0;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.settings-container
+{
+    height: 95%;
+    width: 90%;
+}
+
+
+.settings-header h1{
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.settings-header{
+    border-bottom: 1px solid rgb(167, 162, 162);
+}
+.settings-small-menu{
+    background-color: #ffffff;
+    display: inline-block;
+    width:170px;
+    height: 80px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+.settings-small-menu-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+}
+.settings-option
+{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.main-settings-block{
+ 
+    display: flex;
+    
+}
+.settings-profile{
+    background-color: #ffffff;
+    min-height: 70vh;
+    min-width: 60vw;
+    margin-left: 60px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.avatar-settings
+{
+    width: 100%;;
+}
+.avatar-settings-block
+{
+    width:50%;
+    display: flex;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.avatar-round{
+    width: 100px;
+    height: 100px; 
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.avatar-settings-icon
+{
+    width: 100%;
+    height:100%;
+}
+.avatar-description{
+    margin-left: 10px;
+    position: relative;
+   
+}
+.avatar-description .avatar-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.change-avatar-btn{
+    position: absolute;
+    bottom: 0;
+    background-color: #D74128;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 14px;
+    transition: 0.4s ease-in;
+
+    border: 1px solid #D74128;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.change-avatar-btn:hover
+{
+    border: 1px solid #6a2216;
+    transition: 0.4s ease-in;
+    opacity: 70%;
+    cursor: pointer;
+}
+.profile-info-settings
+{
+    margin-top: 20px;
+    width:90%;
+
+}
+.profile-settings-block
+{
+    display: flex;
+    justify-content: center;
+}
+.profile-info-settings-description{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-input-settings-block{
+    height: 90%;
+    width: 50%;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    
+}
+.profile-input-settings-block .floating-label{
+    font-size: 10px;
+}
+
+.update-profile-details-form
+{
+    margin-bottom: 10px;
+}
+.update-profile-btn{
+    background-color: #ffffff;
+    border: 1px solid rgb(172, 163, 163);
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease; 
+    padding-left: 8px;
+    padding-right: 8px;
+   
+}
+.update-profile-btn:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.settings-option-p
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.settings-option{
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    transition: text-decoration 0.7s ease; 
+}
+.settings-option:hover{
+    color: rgb(25, 9, 200);
+    transition: 0.7s;
+    text-decoration: underline;
+    
+}
+.settings-option:hover svg{
+    fill:rgb(25, 9, 200);
+    transition: 0.7s;
+}
+
+
+
+
+
+  .checkbox-wrapper-7 .tgl {
+    display: none;
+  }
+  .checkbox-wrapper-7 .tgl,
+  .checkbox-wrapper-7 .tgl:after,
+  .checkbox-wrapper-7 .tgl:before,
+  .checkbox-wrapper-7 .tgl *,
+  .checkbox-wrapper-7 .tgl *:after,
+  .checkbox-wrapper-7 .tgl *:before,
+  .checkbox-wrapper-7 .tgl + .tgl-btn {
+    box-sizing: border-box;
+  }
+  .checkbox-wrapper-7 .tgl::-moz-selection,
+  .checkbox-wrapper-7 .tgl:after::-moz-selection,
+  .checkbox-wrapper-7 .tgl:before::-moz-selection,
+  .checkbox-wrapper-7 .tgl *::-moz-selection,
+  .checkbox-wrapper-7 .tgl *:after::-moz-selection,
+  .checkbox-wrapper-7 .tgl *:before::-moz-selection,
+  .checkbox-wrapper-7 .tgl + .tgl-btn::-moz-selection,
+  .checkbox-wrapper-7 .tgl::selection,
+  .checkbox-wrapper-7 .tgl:after::selection,
+  .checkbox-wrapper-7 .tgl:before::selection,
+  .checkbox-wrapper-7 .tgl *::selection,
+  .checkbox-wrapper-7 .tgl *:after::selection,
+  .checkbox-wrapper-7 .tgl *:before::selection,
+  .checkbox-wrapper-7 .tgl + .tgl-btn::selection {
+    background: none;
+  }
+  .checkbox-wrapper-7 .tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 2.2em;
+    height: 1.2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .checkbox-wrapper-7 .tgl + .tgl-btn:after,
+  .checkbox-wrapper-7 .tgl + .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .checkbox-wrapper-7 .tgl + .tgl-btn:after {
+    left: 0;
+  }
+  .checkbox-wrapper-7 .tgl + .tgl-btn:before {
+    display: none;
+  }
+  .checkbox-wrapper-7 .tgl:checked + .tgl-btn:after {
+    left: 50%;
+  }
+
+  .checkbox-wrapper-7 .tgl-ios + .tgl-btn {
+    background: #fbfbfb;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all 0.4s ease;
+    border: 1px solid #e8eae9;
+  }
+  .checkbox-wrapper-7 .tgl-ios + .tgl-btn:after {
+    border-radius: 2em;
+    background: #fbfbfb;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+  }
+  .checkbox-wrapper-7 .tgl-ios + .tgl-btn:hover:after {
+    will-change: padding;
+  }
+  .checkbox-wrapper-7 .tgl-ios + .tgl-btn:active {
+    box-shadow: inset 0 0 0 2em #e8eae9;
+  }
+  .checkbox-wrapper-7 .tgl-ios + .tgl-btn:active:after {
+    padding-right: 0.8em;
+  }
+  .checkbox-wrapper-7 .tgl-ios:checked + .tgl-btn {
+    background: rgb(62, 65, 216);
+  }
+  .checkbox-wrapper-7 .tgl-ios:checked + .tgl-btn:active {
+    box-shadow: none;
+  }
+  .checkbox-wrapper-7 .tgl-ios:checked + .tgl-btn:active:after {
+    margin-left: -0.8em;
+  }
+
+
+ 
+
+  .checkbox-wrapper-43 input[type="checkbox"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  .checkbox-wrapper-43 label {
+    display: inline-block;
+  }
+
+  .checkbox-wrapper-43 .check {
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+  }
+  .checkbox-wrapper-43 .check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(34,50,84,0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .checkbox-wrapper-43 .check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #c8ccd4;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+  }
+  .checkbox-wrapper-43 .check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+  }
+  .checkbox-wrapper-43 .check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+  }
+  .checkbox-wrapper-43 .check:hover:before {
+    opacity: 1;
+  }
+  .checkbox-wrapper-43 .check:hover svg {
+    stroke: #4285f4;
+  }
+  .checkbox-wrapper-43 input[type="checkbox"]:checked + .check svg {
+    stroke: #4285f4;
+  }
+  .checkbox-wrapper-43 input[type="checkbox"]:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+  }
+  .checkbox-wrapper-43 input[type="checkbox"]:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+  }
+
+
+  .profile-settings-block{
+    position: relative;
+  }
+
+.delete-profile-btn
+{
+    background-color: #D74128;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 14px;
+    transition: 0.4s ease-in;
+
+    border: 1px solid #D74128;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+}
+.delete-profile-btn:hover
+{
+    cursor: pointer;
+}
+.settings-header{
+    display: flex;
+    position: relative;
+}
+.main-menu-options-select
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom:0;
+}
+.list-settings
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+}
+.list-settings li{
+    margin-right: 10px;
+}
+.list-settings li:hover{
+    cursor: pointer;
+}
